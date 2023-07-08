@@ -20,8 +20,8 @@ local default_header = {
         [[  ██╔═██╗ ██║╚██╗██║╚██╗ ██╔╝██║██║╚██╔╝██║]],
         [[  ██║  ██╗██║ ╚████║ ╚████╔╝ ██║██║ ╚═╝ ██║]],
         [[  ╚═╝  ╚═╝╚═╝  ╚═══╝  ╚═══╝  ╚═╝╚═╝     ╚═╝]],
+        [[ Personal Devolpment Environment by Kushal]],
     },
-
     opts = {
         position = "center",
         hl = "Type",
