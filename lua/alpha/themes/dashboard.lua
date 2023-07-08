@@ -14,13 +14,14 @@ local default_terminal = {
 local default_header = {
     type = "text",
     val = {
-        [[  ██╗  ██╗███╗   ██╗██╗   ██╗██╗███╗   ███╗]],
-        [[  ██║ ██╔╝████╗  ██║██║   ██║██║████╗ ████║]],
-        [[  █████╔╝ ██╔██╗ ██║██║   ██║██║██╔████╔██║]],
-        [[  ██╔═██╗ ██║╚██╗██║╚██╗ ██╔╝██║██║╚██╔╝██║]],
-        [[  ██║  ██╗██║ ╚████║ ╚████╔╝ ██║██║ ╚═╝ ██║]],
-        [[  ╚═╝  ╚═╝╚═╝  ╚═══╝  ╚═══╝  ╚═╝╚═╝     ╚═╝]],
-        [[ Personal Devolpment Environment by Kushal]],
+        [[██╗  ██╗███╗   ██╗██╗   ██╗██╗███╗   ███╗]],
+        [[██║ ██╔╝████╗  ██║██║   ██║██║████╗ ████║]],
+        [[█████╔╝ ██╔██╗ ██║██║   ██║██║██╔████╔██║]],
+        [[██╔═██╗ ██║╚██╗██║╚██╗ ██╔╝██║██║╚██╔╝██║]],
+        [[██║  ██╗██║ ╚████║ ╚████╔╝ ██║██║ ╚═╝ ██║]],
+        [[╚═╝  ╚═╝╚═╝  ╚═══╝  ╚═══╝  ╚═╝╚═╝     ╚═╝]],
+        [[                                         ]]
+        [[NeoVim to PDE for students]],
     },
     opts = {
         position = "center",
@@ -31,7 +32,7 @@ local default_header = {
 
 local footer = {
     type = "text",
-    val = "",
+    val = "󱌣 by Kushal",
     opts = {
         position = "center",
         hl = "Number",
@@ -78,11 +79,10 @@ local buttons = {
     val = {
         button("e", "  New file", "<cmd>ene <CR>"),
         button("SPC f f", "󰈞  Find file"),
-        button("SPC f h", "󰊄  Recently opened files"),
-        button("SPC f r", "  Frecency/MRU"),
+        button("SPC f h", "󱋡  Recently opened files"),
         button("SPC f g", "󰈬  Find word"),
-        button("SPC f m", "  Jump to bookmarks"),
-        button("SPC s l", "  Open last session"),
+        button("SPC f m", "󰃀  Jump to bookmarks"),
+        button("SPC s l", "󰂽  Open last session"),
     },
     opts = {
         spacing = 1,
