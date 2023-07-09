@@ -21,7 +21,7 @@ local default_header = {
         [[██║  ██╗██║ ╚████║ ╚████╔╝ ██║██║ ╚═╝ ██║]],
         [[╚═╝  ╚═╝╚═╝  ╚═══╝  ╚═══╝  ╚═╝╚═╝     ╚═╝]],
         [[                                         ]],
-        [[NeoVim to PDE for students]],
+        [[      NeoVim to PDE for students]],
     },
     opts = {
         position = "center",
@@ -39,7 +39,7 @@ local footer = {
     },
 }
 
-local leader = "SPC"
+local leader = "C-"
 
 --- @param sc string
 --- @param txt string
@@ -78,11 +78,11 @@ local buttons = {
     type = "group",
     val = {
         button("e", "  New file", "<cmd>ene <CR>"),
-        button("SPC f f", "󰈞  Find file"),
-        button("SPC f h", "󱋡  Recently opened files"),
-        button("SPC f g", "󰈬  Find word"),
-        button("SPC f m", "󰃀  Jump to bookmarks"),
-        button("SPC s l", "󰂽  Open last session"),
+        button("Ctrl f f", "󰈞  Find file"),
+        button("Ctrl f h", "󱋡  Recently opened files"),
+        button("Ctrl f g", "󰈬  Find word"),
+        button("Ctrl f m", "󰃀  Jump to bookmarks"),
+        button("Ctrl s l", "󰂽  Open last session"),
     },
     opts = {
         spacing = 1,
